@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        String expression = "1 + 2 ";
+        String expression = "1 + 2 + 3";
         Expression compile = AviatorEvaluator.compile(expression);
         Object execute = compile.execute();
         System.out.println(execute);
